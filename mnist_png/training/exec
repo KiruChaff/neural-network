@@ -1,0 +1,10 @@
+#!/bin/bash
+for folder in {1..9}
+do
+i=0
+for data in $folder/*
+do 
+mv $data "$folder/img$i.png"
+i=$[$i+1]
+done
+done

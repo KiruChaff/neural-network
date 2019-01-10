@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for folder in {0..9}
+do
+chmod -R 777  $folder
+done
